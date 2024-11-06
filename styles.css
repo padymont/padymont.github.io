@@ -60,7 +60,7 @@ a:hover {
 blockquote {
   font-style: italic;
   color: #555;
-  border-left: 4px solid #007acc;
+  border-left: 2px solid #a9a8a7;
   padding: 0.5em 1em;
   margin: 1.2em 0;
 }
@@ -136,7 +136,7 @@ th {
 
 .subtitle {
   font-size: 2em;
-  color: #666;
+  color: #948c83;
   margin-top: 0;
   font-weight: 400;
   line-height: 1;
@@ -146,22 +146,14 @@ th {
 .chat-container {
     max-width: 600px;
     padding: 10px;
-    position: relative;
 }
 
 .chat-message {
-    margin: 10px 0;
+    margin: 10px 0 30px;
     padding: 0 15px;
-    max-width: 80%;
     font-size: 0.85em;
 }
 
-.left {
-    align-self: flex-start;
-    margin-right: auto;
-}
-
-.right {
-    align-self: flex-end;
-    margin-left: auto;
+.response {
+margin-left: 30px;
 }
